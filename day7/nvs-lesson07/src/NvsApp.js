@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NvsLoginControl from './components/NvsLoginControl';
 import NvsRenderList from './components/NvsRenderList';
 import NvsRenderListStudent from './components/NvsRenderListStudent';
+import NvsRenderListProduct from './components/NvsRenderListProducts';
 
 class NvsApp extends Component {
   render() {
@@ -14,6 +15,8 @@ class NvsApp extends Component {
           <NvsRenderList/>
 
           <NvsRenderListStudent/>
+
+          <NvsRenderListProduct/>
       </div>
     );
   }
